@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rayhaan.blood.RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/userImgView"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin"
+                    app:srcCompat="@mipmap/ic_launcher_round"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin2x"
+                    android:padding="@dimen/padding"
+                    android:background="@color/blue">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/headerFont"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:text="Sign Up Here!"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/paddingHalf"
+                    android:layout_marginBottom="@dimen/margin">
+                    <TextView
+                        android:id="@+id/emailTV"
+                        android:layout_width="@dimen/TVSizeHorizontal"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingHalf"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ETFont"
+                        android:text="Email: "/>
+                    <EditText
+                        android:id="@+id/regEmailET"
+                        android:layout_width="@dimen/emailETSizeHorizontal"
+                        android:layout_height="wrap_content"
+                        android:background="#ecf0ef"
+                        android:padding="@dimen/paddingHalf"
+                        android:inputType="textEmailAddress"
+                        android:text="Enter Email Address"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/ETFont" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/paddingHalf"
+                    android:layout_marginBottom="@dimen/margin">
+                    <TextView
+                        android:layout_width="@dimen/TVSizeHorizontal"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingHalf"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ETFont"
+                        android:text="Blood Group: "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/paddingHalf"
+                    android:layout_marginBottom="@dimen/margin">
+                    <TextView
+                        android:id="@+id/passwwordTV"
+                        android:layout_width="@dimen/TVSizeHorizontal"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingHalf"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ETFont"
+                        android:text="Password:"/>
+                    <EditText
+                        android:id="@+id/regpasswordET"
+                        android:layout_width="@dimen/ETSizeHorizontal"
+                        android:layout_height="wrap_content"
+                        android:background="#ecf0ef"
+                        android:padding="@dimen/paddingHalf"
+                        android:inputType="textPassword"
+                        android:text="Enter password"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/ETFont" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/paddingHalf"
+                    android:layout_marginBottom="@dimen/margin">
+                    <TextView
+                        android:id="@+id/confirmPasswordTV"
+                        android:layout_width="@dimen/TVSizeHorizontal"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingHalf"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/TVFont"
+                        android:text="Confirm Password:"/>
+                    <EditText
+                        android:id="@+id/confirmPasswordET"
+                        android:layout_width="@dimen/ETSizeHorizontal"
+                        android:layout_height="wrap_content"
+                        android:background="#ecf0ef"
+                        android:padding="@dimen/paddingHalf"
+                        android:inputType="textPassword"
+                        android:text="Enter password"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/ETFont" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/paddingHalf"
+                    android:layout_marginBottom="@dimen/margin">
+
+                    <CheckBox
+                        android:id="@+id/agreementCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/marginHalf"
+                        android:text="@string/userAgreementText"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/signUpButton"
+                    android:layout_width="@dimen/bigButtonWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#94fd01"
+                    android:gravity="center"
+                    android:text="@string/registration_button_text"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/buttonFont" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

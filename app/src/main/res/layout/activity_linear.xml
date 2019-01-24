@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cell_size_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="@dimen/cell_size_horizontal"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#12ecd3"
+            />
+
+        <LinearLayout
+            android:layout_width="@dimen/cell_size_horizontal"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="@dimen/cell_size_horizontal"
+                android:layout_height="@dimen/cell_size_vertical_half"
+                android:background="#ec1912"
+                />
+            <EditText
+                android:layout_width="@dimen/cell_size_horizontal"
+                android:layout_height="@dimen/cell_size_vertical_half"
+                android:background="#ecd612"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="@dimen/cell_size_horizontal"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#ecae12"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cell_size_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="#b1b0c1"
+            />
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#bf6a5d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="@dimen/cell_size_horizontal_double"
+                android:layout_height="@dimen/cell_size_vertical_half"
+                android:background="#45ec12"
+
+                />
+            <EditText
+                android:layout_width="@dimen/cell_size_horizontal_double"
+                android:layout_height="@dimen/cell_size_vertical_half"
+                android:background="#12ecc8"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cell_size_vertical"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="@dimen/cell_size_horizontal"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#12ecc4"
+            />
+        <EditText
+            android:layout_width="95dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#60bf5d"
+            />
+        <EditText
+            android:layout_width="95dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#5d6dbf"
+            />
+        <EditText
+            android:layout_width="95dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#bfb55d"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cell_size_vertical"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#77b478"
+            />
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="110dp"
+                android:layout_height="@dimen/cell_size_vertical_one_third"
+                android:background="#e9ce03"
+                />
+            <EditText
+                android:layout_width="110dp"
+                android:layout_height="@dimen/cell_size_vertical_one_third"
+                android:background="#038de9"
+                />
+            <EditText
+                android:layout_width="110dp"
+                android:layout_height="@dimen/cell_size_vertical_one_third"
+                android:background="#e92d03"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="#24ec12"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cell_size_horizontal"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#e9ce03"
+            />
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_size_vertical_one_third"
+                android:background="#5c7ad2"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_size_vertical_two_third"
+                android:background="#e9c"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_size_vertical_two_third"
+                android:background="#001111"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_size_vertical_one_third"
+                android:background="#e9c0"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="@dimen/cell_size_vertical"
+            android:background="#0344e9"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

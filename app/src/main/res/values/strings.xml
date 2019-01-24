@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Blood+</string>
+
+    <string name="log_in_prompt">Sign in using your email &amp; password</string>
+    <string name="login_button_text">Sign In</string>
+    <string name="signup_prompt">Not yet registered?</string>
+    <string name="registration_button_text">Sign Up</string>
+    <string name="userAgreementText">By singing up you\'re registering yourself as a blood donor.Confirm to proceed.</string>
+    <string name="togglebutton">Male</string>
+
+</resources>

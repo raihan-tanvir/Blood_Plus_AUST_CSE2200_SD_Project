@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rayhaan.blood.SearchDonorActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding"
+    android:background="@color/colorAppBg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="@dimen/padding2x">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ecf0ef"
+            android:padding="@dimen/padding"
+            android:text="Select Blood Group"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ETFont"
+            android:layout_marginBottom="@dimen/margin2x" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ecf0ef"
+            android:padding="@dimen/padding"
+            android:text="Select Division"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ETFont"
+            android:layout_marginBottom="@dimen/margin2x"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ecf0ef"
+            android:padding="@dimen/padding"
+            android:text="Select District"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ETFont"
+            android:layout_marginBottom="@dimen/margin2x"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ecf0ef"
+            android:padding="@dimen/padding"
+            android:text="Select Upzilla"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ETFont"
+            android:layout_marginBottom="@dimen/margin2x"/>
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="@dimen/bigButtonWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:textSize="@dimen/buttonFont" />
+    </LinearLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

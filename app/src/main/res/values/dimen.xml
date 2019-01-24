@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell_size_horizontal">140dp</dimen>
+    <dimen name="cell_size_vertical">121dp</dimen>
+    <dimen name="cell_size_horizontal_half">70dp</dimen>
+    <dimen name="cell_size_vertical_half">60.5dp</dimen>
+    <dimen name="cell_size_vertical_one_third">40.33</dimen>
+    <dimen name="cell_size_vertical_two_third">80.66</dimen>
+    <dimen name="cell_size_horizontal_double">200dp</dimen>
+    <dimen name="cell_size_vertical_double">180dp</dimen>
+
+    <dimen name="margin">10dp</dimen>
+    <dimen name="margin2x">20dp</dimen>
+    <dimen name="marginHalf">5dp</dimen>
+
+    <dimen name="padding">10dp</dimen>
+    <dimen name="padding2x">20dp</dimen>
+    <dimen name="paddingHalf">5dp</dimen>
+
+    <dimen name="TVSizeHorizontal">140dp</dimen>
+    <dimen name="TVSizeVertical">30dp</dimen>
+    <dimen name="ETSizeHorizontal">240dp</dimen>
+    <dimen name="emailETSizeHorizontal">220dp</dimen>
+    <dimen name="ETSizeVertical">30dp</dimen>
+
+    <dimen name="headerFont">26dp</dimen>
+    <dimen name="ETFont">22dp</dimen>
+    <dimen name="buttonFont">22dp</dimen>
+    <dimen name="smallFont">16dp</dimen>
+    <dimen name="TVFont">20dp</dimen>
+
+    <dimen name="bigButtonWidth">260dp</dimen>
+
+    <dimen name="gapET">12dp</dimen>
+</resources>
